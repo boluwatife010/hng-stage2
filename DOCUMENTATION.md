@@ -1,9 +1,9 @@
 ## Table of Contents
 - [Features](Introduction)
-- [GettingStarted](#SetupInstruction)
-- [Apiendpoints](#Apiendpoints)
-- [Sampleusage](#Sampleusage)
-- [knownlimitations](#Knownlimitations)
+- [GettingStarted](#Setup-Instruction)
+- [Apiendpoints](#Api-endpoints)
+- [Sampleusage](#Sample-usage)
+- [knownlimitations](#Known-limitations)
 ## Introduction:
 This is a simple REST API that allows CRUD operations on a "person" resource using MongoDB. It provides endpoints to create, retrieve, update, and delete person records.
 ## Setup Instructions:
@@ -12,40 +12,40 @@ This is a simple REST API that allows CRUD operations on a "person" resource usi
 - Testing with Postman: Install Postman if you haven't already. You'll use Postman to test the API.
 ## API Endpoints:
 - Create a New Person
-Endpoint: /api/createuser
-Method: POST
-Description: Create a new person with a name. The name is a required parameter in the request body.
-Request Format:{
+**Endpoint**: /api/createuser
+**Method**: POST
+**Description**: Create a new person with a name. The name is a required parameter in the request body.
+**Request Format**:{
     "name": "Boluwatife"
 }
-Response Format: {
+**Response Format**: {
     "_id": "123abc456",
     "name": "Boluwatife"
 }
 - Get a Person by id
-Endpoint: /api/getuser/:id
-Method: GET
-Description: Retrieve a specific person by their ID.
-Response Format: {
+**Endpoint**: /api/getuser/:id
+**Method**: GET
+**Description**: Retrieve a specific person by their ID.
+**Response Format**: {
      "_id": "123abc456",
     "name": "Boluwatife"
 }
 - Update a Person's Name by id
-Endpoint: /api/updateuser/:id
-Method: PUT
-Description: Update a person's name by their ID. Provide the new name in the request body.
-Request Format: {
+**Endpoint**: /api/updateuser/:id
+**Method**: PUT
+**Description**: Update a person's name by their ID. Provide the new name in the request body.
+**Request Format**: {
      "name": "Boluwatife Honour"
 }
-Response Format: {
+**Response Format**: {
     "_id": "123abc456",
     "name": "Boluwatife Honour"
 }
 - Delete a Person
-Endpoint: /api/deleteuser/:id
-Method: DELETE
-Description: Delete a person by their ID.
-Response Format: {
+**Endpoint**: /api/deleteuser/:id
+**Method**: DELETE
+**Description**: Delete a person by their ID.
+**Response Format**: {
     message: {
         'name deleted successfully'
     }
