@@ -2,8 +2,8 @@
 ## Table of Contents
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [ApiDocumentation](#Api Documentation)
-- [RunningApi](#Running Api)
+- [ApiDocumentation](#ApiDocumentation)
+- [RunningApi](#RunningApi)
 - [Contributing](#Contributing)
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
