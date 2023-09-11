@@ -1,6 +1,6 @@
 ## Table of Contents
-- [Features](Introduction)
-- [GettingStarted](#Setup-Instruction)
+- [Introduction](Introduction)
+- [Setup-Instructions](#Setup-Instruction)
 - [Apiendpoints](#Api-endpoints)
 - [Sampleusage](#Sample-usage)
 - [knownlimitations](#Known-limitations)
