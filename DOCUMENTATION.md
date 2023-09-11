@@ -1,8 +1,8 @@
 ## Table of Contents
 - [Features](Introduction)
 - [GettingStarted](#SetupInstruction)
-  - [Apiendpoints](#Apiendpoints)
-  - [Sampleusage](#Sampleusage)
+- [Apiendpoints](#Apiendpoints)
+- [Sampleusage](#Sampleusage)
 - [knownlimitations](#Knownlimitations)
 ## Introduction:
 This is a simple REST API that allows CRUD operations on a "person" resource using MongoDB. It provides endpoints to create, retrieve, update, and delete person records.
