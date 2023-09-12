@@ -7,7 +7,7 @@ const userDetails = await PersonModel.create ({name,});
 return userDetails;
 }
 export const getAllPersons = async (): Promise<any> => {
-    const getting = await PersonModel.find()
+    const getting = await PersonModel.find({})
     return getting;
 }
 export const getAPerson = async (id:string): Promise<any> => {
