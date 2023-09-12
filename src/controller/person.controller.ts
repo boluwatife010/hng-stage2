@@ -1,6 +1,11 @@
 //Importing required modules from the services folder
-import {createAPerson, getAPerson, updateAPersonById, deleteAPersonById} from '../service/person.service'
+import {createAPerson, getAPerson, updateAPersonById, deleteAPersonById, getAllPersons} from '../service/person.service'
 import express from 'express';
+
+export const getAllPersonHandler = async (req:express.Request, res:express.Response) => {
+    const getting = await getAllPersons()
+    return res.status(200).send({status: 'success', data: getting})
+}
 
 export const createPersonHandler = async (req:express.Request,res:express.Response) => {
 const { name} = req.body;

@@ -6,7 +6,7 @@ import personRouter from './src/route/person.route';
 
 const app = express();
 const PORT = process.env.PORT || 8083; // Use the PORT environment variable or default to 8083
-const connection = process.env.CONNECTION || 'mongodb+srv://boluwatifefiyinfoluwa:Gracefavour100%@peopledata.hnplipi.mongodb.net/?retryWrites=true&w=majority'
+const connection = process.env.CONNECTION_URI 
 app.use(bodyParser.json());
 app.use('/api', personRouter);
 
