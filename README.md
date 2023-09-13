@@ -5,6 +5,7 @@
 - [ApiDocumentation](#ApiDocumentation)
 - [RunningApi](#RunningApi)
 - [Contributing](#Contributing)
+- [License](#License)
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
 
@@ -22,11 +23,13 @@ To start the API server, run the following command:
 To get started started with the People Resource API, follow these steps:
 
 - Clone the repository (or download the ZIP file):
-- git clone https://github.com/boluwatife010/hng-stage2
+``` bash
+- git clone  https://github.com/boluwatife010/hng-stage2
+```
 - Change to the project directory: cd hng-stage2
 - Install the required dependencies:: npm install
 ### Api Documentation
-Refer to the documentation.md for detailed information on  endpoints, request/response formats, and sample usage.
+Refer to the DOCUMENTATION.md for detailed information on  endpoints, request/response formats, and sample usage.
 ### Contribution
  To contribute to this project, follow these steps:
 
@@ -35,3 +38,5 @@ Refer to the documentation.md for detailed information on  endpoints, request/re
 - Make your changes and commit them: git commit -m "Add your feature"
 - Push to your fork: git push origin feature/your-feature-name
 - Create a pull request to the main branch of the original repository.
+### License
+This project is licensed under the MIT license.
