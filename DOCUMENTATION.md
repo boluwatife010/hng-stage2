@@ -2,7 +2,7 @@
 - [Introduction](Introduction)
 - [Setup Instructions](#Setup-Instruction)
 - [Api endpoints](#Api-endpoints)
-- [Sampl eusage](#Sample-usage)
+- [Sample usage](#Sample-usage)
 - [Known limitations](#Known-limitations)
 - [Notes](Notes)
 ## Introduction:
@@ -77,6 +77,7 @@ This is a simple REST API that allows CRUD operations on a "person" resource usi
 ```
 2. Get a person by id
 **GET** /api/getuser/12345
+
 3. Update user by id
 **PUT** /api/updateuser/12345 
 ``` json
@@ -86,6 +87,7 @@ This is a simple REST API that allows CRUD operations on a "person" resource usi
 ```
 4. Delete user by id
 **DELETE** /api/deleteuser/12345 
+
 ### Known limitations: 
 => Only string values are allowed for the "name" field.
 ### Notes
