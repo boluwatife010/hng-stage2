@@ -76,17 +76,17 @@ This is a simple REST API that allows CRUD operations on a "person" resource usi
 }
 ```
 2. Get a person by id
-**GET** /api/getuser/12345
+**GET** /api/12345
 
 3. Update user by id
-**PUT** /api/updateuser/12345 
+**PUT** /api/12345 
 ``` json
 {
     "name": "Olasoji Favour Anuoluwapo"
 }
 ```
 4. Delete user by id
-**DELETE** /api/deleteuser/12345 
+**DELETE** /api/12345
 
 ### Known limitations: 
 => Only string values are allowed for the "name" field.
